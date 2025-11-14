@@ -1,0 +1,55 @@
+{
+    "version": 4,
+    "data": {
+        "envValue": "仿真环境.env",
+        "title": "",
+        "remarks": "",
+        "testCode": "",
+        "config": {},
+        "deviceList": [
+            {
+                "name": "test",
+                "id": "gzWgpnpq0nVwxD80J0xKL",
+                "luaVal": "lua/8_性能_油门输出时间.lua"
+            }
+        ],
+        "channelList": [
+            {
+                "id": "236X5oprIwwtWo_eT-8K8",
+                "name": "test",
+                "items": [
+                    {
+                        "name": "Speed",
+                        "checked": false
+                    },
+                    {
+                        "name": "setting",
+                        "checked": false
+                    },
+                    {
+                        "name": "gas",
+                        "checked": false
+                    }
+                ],
+                "allChecked": false
+            }
+        ],
+        "protocolList": [
+            {
+                "name": "P_speed",
+                "uri": "协议/P_speed.prot",
+                "checked": true
+            },
+            {
+                "name": "P_setting",
+                "uri": "协议/P_setting.prot",
+                "checked": true
+            },
+            {
+                "name": "P_gas",
+                "uri": "协议/P_gas.prot",
+                "checked": true
+            }
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+_netvar_:
+  key1: value1
+  key2: 100
+  other: { }
+testdata:
+  - inval: -0.1
+    expval: 0
+  - inval: 0
+    expval: 0
+  - inval: 0.1
+    expval: 0.1
+  - inval: 50
+    expval: 50
+  - inval: 99.9
+    expval: 99.9
+  - inval: 100
+    expval: 100
+  - inval: 100.1
+    expval: 100

@@ -1,0 +1,55 @@
+{
+    "version": 4,
+    "data": {
+        "envValue": "仿真环境.env",
+        "title": "",
+        "remarks": "",
+        "testCode": "",
+        "config": {},
+        "deviceList": [
+            {
+                "name": "test",
+                "id": "HFXgeG5AJ7EW6iE7caKnf",
+                "luaVal": "lua/4_功能4_加减速功能.lua"
+            }
+        ],
+        "channelList": [
+            {
+                "id": "CMIjKJ0WRpUO-keXhDMx8",
+                "name": "test",
+                "items": [
+                    {
+                        "name": "Speed",
+                        "checked": false
+                    },
+                    {
+                        "name": "setting",
+                        "checked": false
+                    },
+                    {
+                        "name": "gas",
+                        "checked": false
+                    }
+                ],
+                "allChecked": false
+            }
+        ],
+        "protocolList": [
+            {
+                "name": "P_speed",
+                "uri": "协议/P_speed.prot",
+                "checked": true
+            },
+            {
+                "name": "P_setting",
+                "uri": "协议/P_setting.prot",
+                "checked": true
+            },
+            {
+                "name": "P_gas",
+                "uri": "协议/P_gas.prot",
+                "checked": true
+            }
+        ]
+    }
+}
